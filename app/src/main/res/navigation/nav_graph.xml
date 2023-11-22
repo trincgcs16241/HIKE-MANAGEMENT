@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.example.hike_manager_app.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/addExpenseFragment"
+        android:name="com.example.hike_manager_app.AddHikeFragment"
+        android:label="add_expense_fragment"
+        tools:layout="@layout/fragment_add_hike" >
+        <action
+            android:id="@+id/action_addExpenseFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.hike_manager_app.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_addExpenseFragment"
+            app:destination="@id/addExpenseFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_expenseDetailFragment"
+            app:destination="@id/expenseDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/expenseDetailFragment"
+        android:name="com.example.hike_manager_app.HikeDetailFragment"
+        android:label="fragment_expense_detail"
+        tools:layout="@layout/fragment_hike_detail">
+        <argument
+            android:name="hikeUUID"
+            app:argType="string"
+            android:defaultValue="" />
+        <action
+            android:id="@+id/action_expenseDetailFragment_to_editHikeFragment"
+            app:destination="@id/editHikeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editHikeFragment"
+        android:name="com.example.hike_manager_app.EditHikeFragment"
+        android:label="fragment_edit_hike"
+        tools:layout="@layout/fragment_edit_hike">
+        <argument
+            android:name="hikeUUID"
+            app:argType="string"
+            android:defaultValue="" />
+    </fragment>
+</navigation>

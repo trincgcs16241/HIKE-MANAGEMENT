@@ -1,0 +1,35 @@
+
+y	java:S116."]Rename this field "PICK_IMAGE_REQUEST" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾çÏ¤8Š¶ÙÛ¼1
+„	java:S116/"cRename this field "REQUEST_WRITE_PERMISSION" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­Ãê”şÿÿÿÿ8Š¶ÙÛ¼1
+>
+java:S1170."!Make this final field static too.(¾çÏ¤8‹¶ÙÛ¼1
+C
+java:S1170/"!Make this final field static too.(­Ãê”şÿÿÿÿ8‹¶ÙÛ¼1
+E
+java:S11856"(Remove this method to simply inherit it.(ßìê¯8¶ÙÛ¼1
+a
+java:S1874‹">Remove this use of "startActivityForResult"; it is deprecated.(“Œñ¬ÿÿÿÿÿ8—¶ÙÛ¼1
+X
+java:S1874":Remove this use of "requestPermissions"; it is deprecated.(÷È²º8˜¶ÙÛ¼1
+a
+java:S1874˜">Remove this use of "startActivityForResult"; it is deprecated.(“Œñ¬ÿÿÿÿÿ8˜¶ÙÛ¼1
+X
+java:S1874š":Remove this use of "requestPermissions"; it is deprecated.(ÁÀõ8˜¶ÙÛ¼1
+m
+java:S1874Ÿ"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(Ó»×¶şÿÿÿÿ8˜¶ÙÛ¼1
+`
+java:S1874 "BRemove this use of "onRequestPermissionsResult"; it is deprecated.(Öƒà8™¶ÙÛ¼1
+a
+java:S1874£">Remove this use of "startActivityForResult"; it is deprecated.(“Œñ¬ÿÿÿÿÿ8™¶ÙÛ¼1
+m
+java:S1874¨"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(™­²©ùÿÿÿÿ8™¶ÙÛ¼1
+[
+java:S1874©"8Remove this use of "onActivityResult"; it is deprecated.(ß¬©úÿÿÿÿ8š¶ÙÛ¼1
+T
+java:S1874µ"1Remove this use of "getBitmap"; it is deprecated.(¤×‹üÿÿÿÿ8¶ÙÛ¼1
+Q
+java:S1874Â"3Remove this use of "insertImage"; it is deprecated.(´·Äè8¡¶ÙÛ¼1
+k
+java:S3252Ç"MUse static access with "android.provider.MediaStore$MediaColumns" for "DATA".(´Ë¡é8¡¶ÙÛ¼1
+k
+java:S3252É"MUse static access with "android.provider.MediaStore$MediaColumns" for "DATA".(ŞÿŞµ8¢¶ÙÛ¼1
